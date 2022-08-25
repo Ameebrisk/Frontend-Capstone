@@ -1,0 +1,42 @@
+.color-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: calc(100vh - (73px + 78px));
+
+  .color {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #f7931e;
+    background-color: #7fcdee;
+    margin: 75px;
+    width: 250px;
+    height: 180px;
+    padding: 7px;
+    align-items: center;
+  }
+
+  .color-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    input {
+      margin-top: 20px;
+    }
+
+    .color-change {
+      background-color: #f7931e;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-size: 17px;
+      margin-top: 10px;
+      padding-left: 5px;
+      padding-right: 6px;
+      text-align: center;
+    }
+  }
+}

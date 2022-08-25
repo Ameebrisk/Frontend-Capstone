@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: calc(100vh - (72.75px + 78px));
+}
+
+input {
+  margin-top: 50px;
+  border: 1px solid #0e0f3b;
+  color: #0e0f3b;
+  height: 50px;
+  width: 300px;
+}
+
+.weather {
+  border: 3px solid #f7931e;
+  background-color: #7fcdee;
+  margin-top: 100px;
+  width: 250px;
+  text-align: center;
+  padding: 7px;
+  color: #0e0f3b;
+}

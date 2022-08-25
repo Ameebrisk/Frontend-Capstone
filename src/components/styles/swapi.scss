@@ -1,0 +1,38 @@
+.swapi-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: calc(100vh - (72.75px + 78px));
+
+  .swapi-form {
+    select {
+      background-color: #f7931e;
+      color: white;
+      font-size: 17px;
+      border-radius: 10px;
+    }
+
+    .swapi-input {
+      color: #0e0f3b;
+      background-color: #7fcdee;
+      margin-right: 40px;
+      margin-left: 40px;
+    }
+  }
+  .search-button {
+    background-color: #f7931e;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .endpoint {
+    color: #0e0f3b;
+    font-size: 17px;
+    margin-left: 9%;
+  }
+}

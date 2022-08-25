@@ -1,0 +1,12 @@
+.Navbar-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #0e0f3b;
+  margin: 0;
+  padding: 30px;
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}

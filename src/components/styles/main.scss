@@ -1,0 +1,49 @@
+@import "./counter.scss";
+@import "./colorchanger.scss";
+@import "./password.scss";
+@import "./widgetdashboard.scss";
+@import "./clock.scss";
+@import "./navbar.scss";
+@import "./weather.scss";
+@import "./swapi.scss";
+@import "./home.scss";
+@import "./login.scss";
+@import "./about.scss";
+
+body {
+  margin: 0;
+  width: 100%;
+  height: auto;
+  background-color: white;
+  text-decoration: none;
+
+  h1,
+  h2,
+  h3 {
+    color: #07407b;
+  }
+}
+
+.move-button {
+  margin-top: 75px;
+  .back-widgets {
+    background-color: #f7931e;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 50px;
+  }
+}
+
+.Footer-container {
+  display: flex;
+  justify-content: space-between;
+  color: #0e0f3b;
+  background-color: #0e0f3b;
+  padding: 5px;
+  font-size: 17px;
+  height: 75px;
+}
